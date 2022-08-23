@@ -1,0 +1,164 @@
+/* *{
+    border: solid 1px green;
+} */
+/* .navbar{
+    background-color: #fff;
+} */
+
+body::before{
+    display: block;
+    content: '';
+    height: 50px;
+
+}
+.aiko{
+    display: none;
+    
+    
+}
+.Aiko{
+
+    padding-left: 42%;
+}
+.Aiko>a{
+    font-size: 30px;
+    
+}
+.nav-item>a{
+    font-size: 18px;
+    font-weight: 200;
+}
+.nav-item>a:hover{
+  transform: scale(1) translateY(-5px);
+}
+.showcase
+{
+  position: relative;
+  right: 0;
+  width: 100%;
+  min-height: 120vh;
+  padding: 100px;
+  display: flex;
+  color: white;
+  align-items: center;
+  background: black;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.showcase img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+  margin-top: -100px;
+}
+.text h3
+{
+    
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.pit{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  margin-bottom: 200px;
+  margin-left: -20px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  
+  margin-right: 30px;
+  filter: invert(1);
+  transform: scale(1.8);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(2) translateY(-10px);
+}
+
+.icon{
+  font-size: 30px;
+}
+.icon-p{
+  font-weight: 800;
+  font-size: 35px;
+}
+#learn{
+  background-color: rgb(44, 44, 44);
+}
+
+#map{
+ 
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+@media(max-width:992px){
+    .Aiko{
+        display: none;
+    }
+.aiko{
+  display: block;
+}
+.text{
+    margin: 0;
+    padding: 0;
+    margin-left: -60px;
+}
+.showcase{
+    min-height: 100vh;
+}
+.social{
+    margin-bottom: 100px;
+    margin-left: -80px;
+}
+}
